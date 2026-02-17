@@ -7,15 +7,18 @@ public class Variables : MonoBehaviour
 
     public string myName = "Salomón";
     public int edad = 17;
+    public bool isBool; 
 
     [SerializeField] private TMP_InputField _inputField;
-    [SerializeField] private TMP_Text _saludo; 
+    [SerializeField] private TMP_Text _saludo;
+    [SerializeField] private Renderer _cubo;
+    [SerializeField] private BoxCollider _boxCollider;
 
     // Start is called before the first frame update
     void Start()
     {
-        
-        
+        _boxCollider.isTrigger = false;
+        _cubo.material.color = Color.magenta;
     }
 
     // Update is called once per frame
