@@ -2,7 +2,7 @@
 - Project name: Mi Primera Cabalgata 1
 - Unity version: Unity 2023.1.0f1
 - Active game object:
-  - Name: GameObject
+  - Name: Square (1)
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
